@@ -1,0 +1,16 @@
+Deploying Applications on Openstack With Puppet
+
+Puppet is a configuration managment system. It can be used to
+configure machines and deploy applications. In this talk, we'll
+discuss best practices for using Puppet on an OpenStack cloud.
+
+A brief list of questions that will be answered:
+
+  * Where does the Puppet Master go?
+  * Does Puppet hit the openstack api?
+  * What kind of cert names should be used in the cloud?
+  * Do we use Puppet for orchestration?
+  * How do we autoscale?
+  * How do we monitor the health of the application?
+
+

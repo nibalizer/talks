@@ -1,0 +1,21 @@
+Tinc (http://www.tinc-vpn.org/) provides a secure mesh vpn for any number of hosts. My friends and I used this to build a network linking our homes, laptops, and various hosted machines. We started doing some cool things with it such as UPnP and NFS, things that would be impossible to do securely over the public internet. We then added Consul (https://consul.io/) which provides a service directory and health checks. Consul's raft consensus algorithm works well for us because nodes drop on and off this network frequently.
+
+In this talk I will cover the configuration of our VPN and the neat things that we do with it.
+
+
+The really neat thing is that we're combining quite old technology (tinc) with very new technology (consul) and making something new. Just look at the websites for these two pieces of software and you can tell they are worlds apart.
+
+
+Neat things that come out of this:
+
+* This is basically ssh -R on steroids, in the sense that it is a NAT puncher bar none
+* Your laptop has a permanent IP address (kindof)
+* Tinc is truly a mesh network, it is always probing for the most efficient route, if you've connected to any node, you have full access to the entire network, etc
+* Consul is kindof way overkill, but the way it handles a node leaving and rejoining is really nice for us. It provides an HA datastore we use like LDAP. Yes, this is wrong. :)
+* Consul provides us dynamic DNS inside our VPN
+* Consul provides other nss services as well (autofs)
+* SSH connections over tinc don't get reset when you sleep your laptop
+
+Tinc (http://www.tinc-vpn.org/) provides a secure mesh vpn for any number of hosts. My friends and I used this to build a network linking our homes, laptops, and various hosted machines. This network runs on top of the public internet. We started doing some cool things with it such as UPnP and NFS, things that would be impossible to do securely over the public internet. We then added Consul (https://consul.io/) which provides a service directory, health checks, and some service discovery. Consul's consensus system works well for us because nodes drop on and off this network frequently.
+
+In this talk I will cover the configuration of our VPN and the neat things that we do with it.

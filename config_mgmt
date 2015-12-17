@@ -1,0 +1,18 @@
+Config Mgmt and Golden Images
+
+In the operations space right now, there are two schools of thought around operating system and application deployment. One of those schools uses Configuration Management tools. The other bakes Golden Images and redeploys them when needed. The controversy between them isn't just theoretical, many teams from both camps are building OpenStack installers.
+
+Config Mgmt belivers use tools like Chef, Puppet, Salt and Ansible to control configuration on their machines. These tools run in a tight loop and operators can describe the configuration in rich, high level languages. Config Mgmt users can deploy small changes very quickly to large fleets.
+
+Golden Image bakers use tools like Packer, Docker, and OpenStack's own disk-image-builder to create their images, then use other tools to deploy them. Golden Images are often read-only, so once tested, they will run the exact same way in production as they did in test. Golden Image bakers can deploy with confidence because they have stomped out much of the entropy of the system.  
+
+In this talk, I will compare and contrast these approaches. I will talk about use cases where each is the correct choice, and use cases where either can be used to great effect. I will even answer the question: 
+    "Is there room for both?"
+
+
+Note To Organizers:
+
+I personally am more in the Config Mgmt camp, I wrote a book on Puppet. My good friend is a core on disk-image-builder and we have had hundreds of long arguments on this exact controversy, which is why I feel comfortable presenting the other side of it.
+
+If you wish, I can produce experts on both sides of this for a panel session instead of just me presenting.
+

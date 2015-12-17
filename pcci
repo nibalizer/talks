@@ -1,0 +1,5 @@
+Puppet Community CI
+
+The puppet community ci is a side-project I've been working on for about a year. Fed up with jenkins and looking for a way to run Beaker tests on modules I turned to python and began to code. A few months later we have a CI system that tests 21 (and growing) modules on multiple operating systems. This is the only system providing per-pull-request beaker test information on puppetlabs modules. Anyone can have their module tested in this system or hack on the daemons to make them better. PCCI is 100% open source. It runs on a physical server bought from ebay.
+
+In this talk I'll discuss why I made it, how it works, who has helped make it great, and how the audience can get involved.

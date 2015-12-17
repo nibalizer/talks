@@ -1,0 +1,4 @@
+Deploying OpenStack with Puppet
+
+
+In this tutorial we will deploy a multinode OpenStack using Puppet. The puppet modules to deploy openstack are an open source project in their own right, organized under the OpenStack 'Big Tent' with contributors from 23 different companies. Deploying OpenStack in a multinode setup is daunting, but this tutorial will take you step by step through the process, understanding the components and why we are taking each step.

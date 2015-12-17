@@ -1,0 +1,23 @@
+
+CephFS as a replacement for NFS
+
+For years NFS has been the cheap and simple way to attach remote
+storage in multiple places. Unlike many block level solutions, NFS
+allows multiple machines to connect to the filesystem simultaneously.
+The problem with NFS has always been its central NFS server, which
+represents a single point of failure.
+
+In this talk, we will analyze CephFS as a possible replacement
+for the many tasks NFS is doing now. CephFS an experimental
+filesystem driver for Linux that provides NFS-like log-ins to
+remote storage pools. Ceph is an OpenStack related technology
+that provides distributed storage and redundancy. 
+
+In this talk we will present results of testing and performance benchmarking
+on both NFS systems and CephFS systems, as well as presenting some early 
+conclusions from that data. We will look at the race conditions
+experienced by files in clustered file system situations, and how
+NFS and CephFS deal with that. And we will evaluate the benefits and
+costs of a significant CephFS distributed filesystem installation.
+
+

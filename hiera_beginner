@@ -1,0 +1,13 @@
+Hiera
+
+Hiera is a major subsystem inside Puppet. It is used to do key-value lookups inside your puppet manifests. While this sounds simple, using Hiera is often a challenge for new Puppeteers.
+
+In this talk, we'll:
+
+* Introduce what Hiera is
+* Show some basic examples
+* Show a single intermediate example
+* Talk about some trouble points for new users
+* Talk about how PuppetDB and Hiera are different
+* Leave ample time for questions
+

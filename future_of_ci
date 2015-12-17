@@ -1,0 +1,11 @@
+Advisory Third Party CI
+
+Third party CI is a relatively new concept (to me at least) that will be introduced in this talk, and expanded on. I'll show the ways we do this already in the OpenStack and Puppet communities, and lay out my vision for how we can do this at at much larger scale.
+
+Third party advisory CI is the process of a third party providing CI information to the development team of a project. These individuals or projects are not core developers, and the CI system stands next to the main CI for the project. The CI vote is advisory, and doesn't block merge.
+
+Imagine Project A is a library. Project B is a web application that consumes that library. Whenever a patch is proposed to project A, Project B's CI system runs a test of Project B's software using Project A's master + proposed changes. Then the result of that test is reported back to the developers of Project A. In this way, Project B can inform Project A that the change would break Project B's use of Project A.
+
+There are a number of different ways this can be configured, and a couple cool emergent behaviours with this. With the projects I am currently involved in, we are using some form of it with both gerrit and github. This presentation will present the idea, some configuration examples, and my vision for the future. I don't think this is 100% figured out, so I'll leave some time in the session for audience feedback and discussion. There are place where the tools we have need to be improved to support this, I'll call those out as well.
+
+

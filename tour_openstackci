@@ -1,0 +1,6 @@
+We'll run through the architecture and code behind the openstack-ci Puppet infrastructure. Openstack-ci runs thousands of tests a day for the OpenStack project. Come see how our manifests are laid out, how our modules are used/misused, our use of hiera, our testing, and our interpretation of roles/profiles.
+
+This is a beginner friendly look at what a mature Puppet infrastructure looks like. The Openstack CI infrastructure team maintains gerrit, git, jenkins, web, database, logging, and other services used by OpenStack developers all over the world. Come see how our manifests are laid out, how our modules are used/misused, our use of hiera, our testing, and our interpretation of roles/profiles. There will be ample time for questions!
+
+
+The best part? All the code you'll see today is 100% Open Source!
