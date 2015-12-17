@@ -1,0 +1,8 @@
+OpenStack Advanced Topics
+
+
+OpenStack is Open Source Cloud software, and the definition of cloud has changed in recent years. OpenStack has always provided API driven access to resources traditionally found in the datacenter: virtual machines, networks and subnets, storage, and dns. With recent developments OpenStack provides API access to other interesting resources including databases, load balancers, containers, fleets of containers, message queues, and remote filesystems. These 'optional' OpenStack resources provide value at the cost of complexity. This talk aims to provide some insight into what these optional resources do and how you can benefit from them.
+
+In this talk I will provide a survey of these more non traditional services, I'll give my honest opinion on which ones I think are ready for production, and I'll provide a live demo of using one or two of them.
+
+An overview of the core-optional split between OpenStack services can be found here: https://www.openstack.org/software/
