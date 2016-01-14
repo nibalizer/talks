@@ -1,3 +1,14 @@
 OpenStack For Humans
 
 OpenStack is Open Source cloud software. It is used by huge corporations, elite operations teams, and free software fanatics. But what about humans? OpenStack can be used by regular humans too! In this talk I'll introduce OpenStack, answering all those questions about what OpenStack is, and what it does. Then, I'll give some brief tutorials on how to use to OpenStack, tutorials that can be understood by a human. Simple, concrete tasks will be demonstrated by the audience, who can go away ready to put their new knowledge to work. Whatever your 'appetite' for cloud is, whatever your budget and size needs, there is an OpenStack powered cloud for you.
+
+
+Long:
+
+This talk will introduce OpenStack to people who haven't heard of OpenStack or haven't kept up with what OpenStack is and what it provides.
+
+In short, OpenStack is cloud software, enabling users to boot virtual machines and configure other cloud resources such as networking and attached storage. OpenStack is different from AWS in that OpenStack is open source software, anyone can do whatever they want with it.
+
+Generally, OpenStack is used in both public and private clouds. Some organizations use a public OpenStack cloud in much the same way as AWS, some organizations run a private OpenStack cloud in their own datacenter.
+
+In this talk, we'll introduce OpenStack and demonstrate some basic use of an OpenStack cloud.
