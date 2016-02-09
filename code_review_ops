@@ -1,0 +1,15 @@
+Title: Code Review for Operations
+
+Code review has been shown to help developers produce better code. It can also help SREs run more reliable systems. Our ops team is fanatic about using code review and representing our infrastructure as code so that code review can be leveraged. In this presentation I will show how we use code review to manage our infrastructure, modify and create systems, administer services, etc. I'll show the path we took to get here, what actions couldn't be piped through code review, and what we're going to next.
+
+Outline(usually unpublished):
+
+* Definition of Code Review
+** Brief bit on Techniques and Technologies
+** Brief bit on Academic research into code review
+* Definition of Infrastructure as Code
+** Brief bit on Techniques and Technologies
+* Examples of using code review in expected places
+* Examples of using code review in unexpected places
+* Examples of where code review isn't or hasn't worked for us
+* Look to the future of what we aren't pushing through code review now but want to. Possibly a bit on the technology we want to use.
