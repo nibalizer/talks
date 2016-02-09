@@ -2,6 +2,11 @@ Title: Code Review for Operations
 
 Code review has been shown to help developers produce better code. It can also help SREs run more reliable systems. Our ops team is fanatic about using code review and representing our infrastructure as code so that code review can be leveraged. In this presentation I will show how we use code review to manage our infrastructure, modify and create systems, administer services, etc. I'll show the path we took to get here, what actions couldn't be piped through code review, and what we're going to next.
 
+
+Note to Reviewers: Our entire infrastructure is open source, so every piece of code and every review exchange can be reviewed later by the audience. We sometimes get the authors of various tools we are using to weigh in on our code review.
+
+My team: http://docs.openstack.org/infra/system-config/
+
 Outline(usually unpublished):
 
 * Definition of Code Review
@@ -9,7 +14,9 @@ Outline(usually unpublished):
 ** Brief bit on Academic research into code review
 * Definition of Infrastructure as Code
 ** Brief bit on Techniques and Technologies
-* Examples of using code review in expected places
-* Examples of using code review in unexpected places
+* Examples of using code review in expected places(expected at least to the reviewers I imagine)
+* Examples of using code review in unexpected places(this part will open some eyes and contain some humor)
 * Examples of where code review isn't or hasn't worked for us
+* Where we get value out of code review, why we do it
 * Look to the future of what we aren't pushing through code review now but want to. Possibly a bit on the technology we want to use.
+
