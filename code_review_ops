@@ -1,11 +1,15 @@
 Title: Code Review for Operations
 
-Code review has been shown to help developers produce better code. It can also help SREs run more reliable systems. Our ops team is fanatic about using code review and representing our infrastructure as code so that code review can be leveraged. In this presentation I will show how we use code review to manage our infrastructure, modify and create systems, administer services, etc. I'll discuss why we use code review for our operations work, and where we get value from it. I'll show the path we took to get here, what actions couldn't be piped through code review, and what we're going to next.
+Abstract: Code review has been shown to help developers produce better code. It can also help SREs run more reliable systems. Our ops team is fanatic about using code review and representing our infrastructure as code so that code review can be leveraged. In this presentation I will show how we use code review to manage our infrastructure, modify and create systems, administer services, etc. I'll discuss why we use code review for our operations work, and where we get value from it. I'll show the path we took to get here, what actions couldn't be piped through code review, and what we're going to next.
 
+Shorter Abstract: Code review has been shown to help developers produce better code. It can also help SREs run more reliable systems. Our ops team is fanatic about using code review and representing our infrastructure as code so that code review can be leveraged. I'll show you why we do it this way, and how you can too.
 
 Note to Reviewers: Our entire infrastructure is open source, so every piece of code and every review exchange can be reviewed later by the audience. We sometimes get the authors of various tools we are using to weigh in on our code review.
 
 My team: http://docs.openstack.org/infra/system-config/
+
+
+We use Ansible, Puppet, and OpenStack APIs to manage our infrastructure as code. We then use Gerrit to do code reviews. A custom CI/CD pipeline involving Jenkins fires on every proposed change, then if the change is landed it is deployed to production.
 
 Outline(usually unpublished):
 
@@ -20,3 +24,7 @@ Outline(usually unpublished):
 * Where we get value out of code review, why we do it
 * Look to the future of what we aren't pushing through code review now but want to. Possibly a bit on the technology we want to use.
 
+
+Takeaway: How to benefit from an operations team using code review in tandem with their infrastructure as code system. This provides serious incentive to deploy a CI/CD system and/or an infrastructure as code system.
+
+Prereqs: Attendees should be familiar with system-administration, some basic git knowledge. Experience with a config mgmt tool will be helpful.
