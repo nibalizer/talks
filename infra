@@ -1,0 +1,3 @@
+Running 1200 OpenStack Instances: Using OpenStack for CI tool
+
+As an operator of the Infrastructure project, I run services that create and destroy virtual machines with OpenStack at an alarming rate. The infrastructure project boots hundreds of vms a day across multiple public and private cloud providers. I'll share the tooling we use to do this, the lessons we've learned from operating at this scale, and user stories from two other companies who are using OpenStack as the backing to their CI system.
