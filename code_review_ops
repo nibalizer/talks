@@ -16,6 +16,7 @@ Outline(usually unpublished):
 * Definition of Code Review
 ** Brief bit on Techniques and Technologies
 ** Brief bit on Academic research into code review
+** Explain why habitual and constant code review has seen such wide adoption in software development
 * Definition of Infrastructure as Code
 ** Brief bit on Techniques and Technologies
 * Examples of using code review in expected places(expected at least to the reviewers I imagine)
