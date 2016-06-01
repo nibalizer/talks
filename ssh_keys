@@ -1,0 +1,14 @@
+
+
+SSH, we all use it. Unfortunately, just using keys is not enough, the client is in some ways the most vulnerable part of the chain. I'll discuss a couple attacks that have happened recently. I'll show some simple ways I have enhanced the security of my ssh keys, these techniques can be applied immediately.
+Details
+
+I'll discuss the recent firefox pdf.js vulnerability that was used to grab the .ssh folder from your local account.
+I'll discuss enhancing the encryption of your ssh key.
+I'll discuss moving your ssh key off of your hard drive on to a usb drive, and using a more-secure version of ssh agent to authorize use.
+I'll discuss using yubikey/ironkey/tpm.
+I'll make sure whatever I suggest works on a mac(I use primarily Linux). No promises on windows but I will try.
+Pitch
+
+SSH is something basically everyone uses, the one constant in the various stacks. Despite being one of the most secure protocols(or perhaps because of it), recent attacks have started to focus on the client: the user's laptop. I'll discuss this new attack, what the vectors are, and what you can do about it.
+
