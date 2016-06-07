@@ -1,0 +1,25 @@
+
+Abstract:
+
+What is the OpenStack client ecosystem like in Go today? Can I boot a virtual machine with go? Which library do I use? What projects are using it today? Which OpenStack projects have go support?
+
+I will cover the current state of using Go to control an OpenStack cloud. I'll show the 'OpenStack hello world' go program and explain the differences between the two different go OpenStack libraries. I'll introduce and demonstrate Terraform, the Hashicorp project in go that can boot clusters inside OpenStack(compare and contrast with os_server in ansible). And I'll show a small demo application written in go.
+
+At the end of this talk the audience will know what go can and can't do with an OpenStack cloud.
+
+
+
+
+What will the audience get out of it:
+
+At the end of this talk attendees will be able to express exactly where the state of hitting OpenStack APIs from go is. I'll cover the good and the bad. I'll also discuss the community factors at play here. I won't discuss the recent discussion about using go inside OpenStack, I'll only discuss using go to hit public OpenStack APIs. 
+
+Go is probably the most popular language for operations or 'DevOps' engineers to be working in right now. The vast majority of Hashicorp tools are in go, and they are considered at the top of the 'ops tooling' game. Still, when it comes to hitting OpenStack from this language, we don't even list a go library here: http://developer.openstack.org/ (I am trying to figure out how to fix that)
+
+Most importantly, we'll send the audience out into the world ready to tell their friends that you can build an OpenStack application with go.
+
+If the above is meant for audience consumption not reviewer consumption, we can edit it a bit.
+
+
+
+
