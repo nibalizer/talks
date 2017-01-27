@@ -3,3 +3,17 @@ In the last two years, I have been a part of the VoxPupuli(https://voxpupuli.org
 What this project represents to me, is my first step into a leadership role. I've been a user, contributor, and core of Open Source/Free Software projects before, but this is my first time dealing with the leadership aspect. I'm relatively new to the 'movement' part of all this, and as a newcomer I had to 'relearn' what was already learned by leaders that came before me.
 
 I'll discuss our origin, and detail the issues we've faced as a project. I'll talk about the actions myself and the other leaders took, what worked, what didn't, and what I've learned. The exact technology inside VoxPupuli will be brought up in passing, but mostly this is about building a community and the challenges a community faces today.
+
+
+
+
+I am going to tell the story of my leadership efforts in the VoxPupuli(https://voxpupuli.org/) project. We started, as most do, very small. Now we have dozens of contributors, over a hundred repositories, a logo, a governance system, and elected officials.
+
+This is the first time I've ever been working on the leadership side, and I want to share the unique perspective of a newcomer. Our project has had non-trivial governance and leadership issues to solve. We manage dozens of releases. We promote users to be committers. We manage shared secrets and accounts. We renamed our project because of trademark issues. We created and ratified a governance document. We created a security officer role and appointed someone to fill it. I'll share what we did, what worked, what didn't, and what we've learned about the challenges an Open Source community faces today.
+
+
+The audience is anyone interested in the challenges an Open Source project faces. Attendees can expect discussion of classic problems: secret storage, contributor promotion, CoC enforcement, picking a few goals and getting the community to work towards them, managing the relationship with companies, self-governance, running an election in an open source community, trademark issues, angry contributors who don't want to change, upset users, enabling contributors while preserving an audit trail, and testing/release pipeline management. For these things (probably not all) I'll talk about how the issue presented itself, what myself and other leaders did, how that went, and what we learned. I encourage the CFP committee to reach out to me and highlight which of these issues they think are *most* relevant to the audience, because I can make sure they are covered prominently in the talk. 
+
+The things I'm going to discuss won't be particularly novel, Open Source leaders have been discussing these things since the beginning of the movement. I however, am a somewhat unique person to be presenting on them. Our leadership team is largely new to the game, we are making mistakes, challenging old assumptions, trying to find our path in a place with no clear answers and where much of the 'how to do it' doctrine seems very, very old. That, I think, is the big advantage. You'll have me presenting these ideas and posing questions and I won't be someone who has done it for 15 years, I've been doing it for 18 months. For the business oriented folks in the room, I think this will give them some perspective on what 'new open source' looks like.
+
+Thank you for your consideration.
