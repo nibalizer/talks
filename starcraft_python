@@ -1,0 +1,5 @@
+StarCraft II is one of the best video games of all time. It has a competitive professional league and is played on some of the biggest stages in Europe and the world.
+
+After every game, a replay file is emitted with all the video game data from the match. I'll discuss the analysis we've done on that data, using the power of python. Funky cron jobs, starcraft specific libraries, matplotlib, and jupyter will all be leveraged. I'll show my progress so far in analysing this eSport with python and how the audience can do it as well.
+
+This will be fun and upbeat and something anyone can enjoy, even if they've never heard of StarCraft before
