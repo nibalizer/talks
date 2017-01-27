@@ -1,3 +1,18 @@
 
 
-in this crisp talk, I'll explain what makes a good alert. I'll talk about several factors to consider when crafting an alert, such as actionability. I'll give some examples of great alerts and not so great alerts. Audience members can take this information back to their systems and improve or remove bad alerts, and they can create only good alerts going forward.
+Iin this crisp talk, I'll explain what makes a good alert. I'll talk about several factors to consider when crafting an alert, such as actionability. I'll give some examples of great alerts and not so great alerts. Audience members can take this information back to their systems and improve or remove bad alerts, and they can create only good alerts going forward.
+
+
+I. Introduction to my background (sysadmin and developer and devops)
+II. Four Factors of alerts
+a) Actionable
+b) Containing Links to playbooks/docs
+c) Specific
+d) Headed to the right person
+III. Alerting system behaviours that need to exist (this is very short)
+a) I don't care what system you use but it needs these things:
+b) Automatic rotation
+c) Automatic escalation
+d) Throttling
+IV. Examples of good and bad alerts
+
