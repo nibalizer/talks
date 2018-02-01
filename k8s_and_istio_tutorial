@@ -1,0 +1,33 @@
+Irness the power of Kubernetes and Isti;
+ostio and Kubernetes
+
+
+Harness the power of Kubernetes and Istio
+
+Microservices revolutionized the way we look at app development and is now one of the most popular programming architectures. Now, Docker alongside Kubernetes is changing the way teams look at deployments of these microservices. Kubernetes provides powerful production-grade orchestration for your "Dockerized" microservices; with open source Istio on top, you gain the capabilities to connect, manage and secure your microservices. In this workshop, you'll deploy a microservice-based supply chain management app using Kubernetes. You'll then learn how to harness the power of Kubernetes and Istio to manage and scale your microservices.
+
+This is a hands-on-keyboard lab, everyone should come with a laptop and a desire to learn. Attendees can use minikube locally, or cloud accounts will be provided.
+
+We'll cover:
+
+* Building Docker Images
+* Kubernetes basics
+* Deploying the application with Kubernetes
+* Upgrading and scaling the application with kubernetes
+* Debugging Kubernetes
+* Istio basics
+* Making the deployment more secure (Using istio to get mutual tls authentication between services)
+* Rolling out a new version to 1% of users (Using istio for traffic splitting)
+* Making the deployment more robust (Using istio for circuit breaking and automatic request retries)
+
+The pace of this tutorial will be determined by the audience - even if you're a microservices noobie, come to this session and we'll make sure you get the most out of it.
+
+
+
+Notes for committee:
+
+I am going to focus on "reading the room" at the beginning to see where everyone is. If we need to spend a bunch of time on just docker and kubernetes and don't get to Istio - that's fine, I want to make sure that attendees get something out of it.
+
+My goal is for everyone in the audience to be comfortable deploying and debugging a microservices based app with kubernetes. Beyond that, if everyone can see and use the power of Istio, that will be super awesome too.
+
+If we get all the way to the end, we'll do some fancy stuff with Istio's fault injection capabilities as well
