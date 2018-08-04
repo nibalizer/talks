@@ -4,4 +4,5 @@ Abstract: Clickbait title is clickbait. Git is pretty awesome, and what we've do
 
 That said, git is not perfect. It has some problems. In this talk I'll cover where the problems I see are. I'll also talk about how git is being used in place where it shouldn't be, and the problems that come from this. I'll pose some solutions as well. Hopefully, I'll prepare the audience for a future where a newer version control system replaces git. And I'll talk to that future future by expressing what I want from whatever version control system comes next.
 
-Notes for reviewers: This is not a product pitch. I don't have a git-killer software project I am working on.
+Notes for reviewers: This is not a product pitch. I don't have a git-killer  startup or anything like that :) My legit concern is that there is a ton of 'when all you have is a hammer, everything looks like a nail' use of git in a number of places where it makes no sense.
+
