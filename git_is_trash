@@ -1,0 +1,7 @@
+Title: Git is trash, fite me
+
+Abstract: Clickbait title is clickbait. Git is pretty awesome, and what we've done in the last few years wouldn't be possible without it. I've used it daily for years. I've taught it. I learn new things about it or new ways to use it all the time.
+
+That said, git is not perfect. It has some problems. In this talk I'll cover where the problems I see are. I'll also talk about how git is being used in place where it shouldn't be, and the problems that come from this. I'll pose some solutions as well. Hopefully, I'll prepare the audience for a future where a newer version control system replaces git. And I'll talk to that future future by expressing what I want from whatever version control system comes next.
+
+Notes for reviewers: This is not a product pitch. I don't have a git-killer software project I am working on.
