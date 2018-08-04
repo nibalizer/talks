@@ -6,3 +6,7 @@ That said, git is not perfect. It has some problems. In this talk I'll cover whe
 
 Notes for reviewers: This is not a product pitch. I don't have a git-killer  startup or anything like that :) My legit concern is that there is a ton of 'when all you have is a hammer, everything looks like a nail' use of git in a number of places where it makes no sense.
 
+# notes for talk
+
+To add version number:
+git describe --always --tags --dirty=-modified
