@@ -1,0 +1,14 @@
+
+
+Kubernetes is becoming the de-facto container orchestrator for cloud native applications. But how do we secure our apps and platform in an increasingly dynamic workload. How do we create threat models properly when containers sometimes only live for a few seconds? How do we provide security in this modern cloud native world?
+
+
+In this workshop we’ll cover how to implement runtime security for Kubernetes using the open source project Falco (falco.org). We’ll cover the following:
+
+    Learn how to create rules for an application. We’ll take a containerized application and create Falco rules to detect abnormal behavior in the application. We’ll profile an application’s system calls, then use the profile to create application specific rules.
+
+    Learn how to alert on Kubernetes audit events like deployment creation, kubectl exec, privileged container creation, and other interactions with the Kubernetes API.
+
+    Learn how to leverage Serverless frameworks to react to security incidents. Delete offending pods, prevent nodes from being scheduled, and alert to Slack.
+
+    All of the work will be hands-on with Falco and Kubernetes. Attendees will be given a free Kubernetes cluster on the IBM Cloud.
